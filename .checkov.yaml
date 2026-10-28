@@ -1,0 +1,11 @@
+framework:
+  - terraform
+  - github_actions
+  - kubernetes
+quiet: true
+compact: true
+skip-path:
+  - tests/
+# Las excepciones se anaden aqui, una a una y con su justificacion:
+# skip-check:
+#   - CKV_AZURE_xxx   # motivo, ver docs/adr/...
