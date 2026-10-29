@@ -13,3 +13,7 @@ fmt: ## Formatea el codigo de Terraform
 
 init-tools: ## Descarga los plugins de tflint
 > tflint --init
+
+.PHONY: pin-actions
+pin-actions: ## Ancla las acciones de GitHub por hash de commit
+> ./scripts/pin-actions.sh
